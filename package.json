@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watch --progress --config webpack.config.js"
+    "start": "webpack --watch --progress --config webpack.dev.js",
+    "build": "webpack --watch --progress --config webpack.production.js"
   },
   "keywords": [],
   "author": "Sunnatullox",
   "license": "ISC",
   "devDependencies": {
+    "@types/chrome": "^0.0.180",
+    "@types/react-dom": "^17.0.14",
+    "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
@@ -21,6 +25,7 @@
   },
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "webpack-merge": "^5.8.0"
   }
 }

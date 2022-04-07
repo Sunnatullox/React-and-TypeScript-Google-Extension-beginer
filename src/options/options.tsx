@@ -1,6 +1,6 @@
 import React from 'react'
 import * as ReactDOM from 'react-dom';
-import './options'
+import "./options"
 
 
 const firstname = <img src="icon.png" alt="" />

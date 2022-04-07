@@ -1,0 +1,1 @@
+chrome.runtime.sendMessage("Hello Content",(e=>{console.log(e)}));

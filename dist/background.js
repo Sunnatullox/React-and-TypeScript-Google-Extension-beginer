@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener(((o,e,l)=>{console.log(o),console.log(e),l("Hello from background")}));

@@ -1,13 +1,14 @@
 const path = require("path");
 const CopyWebpackPlugin= require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const {CleanWebpackPlugin} = require("clean-webpack-plugin")
 
 module.exports={
-    mode:"development",
-    devtool:"cheap-module-source-map",
     entry:{
         popup:path.resolve("src/popup/popup.tsx"),
-        options:path.resolve("src/options/options.tsx")
+        options:path.resolve("src/options/options.tsx"),
+        background:path.resolve("src/background/background.ts"),
+        contentScript:path.resolve("src/contentScript/contentScript.ts")
     },
     module:{
         rules:[
@@ -33,7 +34,10 @@ module.exports={
         ...getHtmlPlugns([
             'popup',
             'options'
-        ])
+        ]),
+        new CleanWebpackPlugin({
+            cleanStaleWebpackAssets:false
+        })
     ],
     resolve:{
         extensions:['.tsx', '.ts', '.js']

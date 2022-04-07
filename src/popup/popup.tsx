@@ -1,5 +1,6 @@
 import React from 'react'
 import * as ReactDOM from 'react-dom';
+import './popup'
 
 
 const firstname =  <img src="icon.png" alt="" />
