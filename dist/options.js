@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/popup/popup.tsx":
-/*!*****************************!*\
-  !*** ./src/popup/popup.tsx ***!
-  \*****************************/
+/***/ "./src/options/options.tsx":
+/*!*********************************!*\
+  !*** ./src/options/options.tsx ***!
+  \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -15,7 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const firstname = react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Hello Sunnatullox "));
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Hello"));
 const root = document.createElement("div");
 document.body.appendChild(root);
 react_dom__WEBPACK_IMPORTED_MODULE_1__.render(firstname, root);
@@ -145,7 +145,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1__.render(firstname, root);
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"popup": 0
+/******/ 			"options": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -195,9 +195,9 @@ react_dom__WEBPACK_IMPORTED_MODULE_1__.render(firstname, root);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_react-dom_index_js"], () => (__webpack_require__("./src/popup/popup.tsx")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_react-dom_index_js"], () => (__webpack_require__("./src/options/options.tsx")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=popup.js.map
+//# sourceMappingURL=options.js.map
