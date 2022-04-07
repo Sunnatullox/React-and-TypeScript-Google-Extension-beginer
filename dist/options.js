@@ -12,10 +12,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var _options__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./options */ "./src/options/options.tsx");
 
 
-const firstname = react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Hello"));
+
+const firstname = react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { src: "icon.png", alt: "" });
 const root = document.createElement("div");
 document.body.appendChild(root);
 react_dom__WEBPACK_IMPORTED_MODULE_1__.render(firstname, root);

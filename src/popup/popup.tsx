@@ -2,7 +2,7 @@ import React from 'react'
 import * as ReactDOM from 'react-dom';
 
 
-const firstname = <div><p>Hello Sunnatullox </p></div>
+const firstname =  <img src="icon.png" alt="" />
 
 const root = document.createElement("div")
 document.body.appendChild(root)
